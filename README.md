@@ -11,7 +11,7 @@ Get your booth code from the setup page: https://tidesstudio.com/postcard-photob
 3. **Script.** Go to Website → Website Tools → Code Injection → Footer, paste this line and save:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/tidesstudio/photo-booth@2.2.0/photo-booth.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/tidesstudio/photo-booth@2.2.1/photo-booth.min.js"></script>
 ```
 
 Requires a Squarespace plan with Code Injection (Core, Plus or Advanced).

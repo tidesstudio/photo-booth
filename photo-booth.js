@@ -1,4 +1,4 @@
-/* Postcard Photo Booth by Tides Studio — v2.2
+/* Postcard Photo Booth by Tides Studio — v2.2.1
    Installed with one line in Website Tools → Code Injection → Footer (see README.md).
    Finds every <div class="tides-booth"> on the page and turns it into a booth.
    Photos are processed in the visitor's browser only. Nothing is uploaded. */
@@ -365,9 +365,9 @@
     card.appendChild(make('p', 'tides-booth__privacy', c.privacy));
 
     wrapEl.appendChild(invite); wrapEl.appendChild(cam); wrapEl.appendChild(card);
-    var credit = make('p', 'tides-booth__credit', 'Postcard Photo Booth by ');
-    var creditLink = make('a', '', 'Tides Studio');
-    creditLink.href = 'https://tidesstudio.com'; creditLink.target = '_blank'; creditLink.rel = 'noopener';
+    var credit = make('p', 'tides-booth__credit', 'By Tides Studio | ');
+    var creditLink = make('a', '', 'Create your FREE Postcard Photo Booth');
+    creditLink.href = 'https://tidesstudio.com/postcard-photobooth'; creditLink.target = '_blank'; creditLink.rel = 'noopener';
     credit.appendChild(creditLink);
     wrapEl.appendChild(credit);
     el.appendChild(wrapEl);

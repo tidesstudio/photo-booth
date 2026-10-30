@@ -9,7 +9,7 @@ from pathlib import Path
 
 import rjsmin
 
-VERSION = '2.2.0'
+VERSION = '2.2.1'
 
 HERE = Path(__file__).parent
 BANNER = '/*! Postcard Photo Booth v' + VERSION + ' · Tides Studio · tidesstudio.com */\n'
